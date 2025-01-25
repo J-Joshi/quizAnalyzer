@@ -32,10 +32,13 @@ weak_topics = []
 strong_topics = []
 
 for topic, stats in topic_analysis.items():
-    if stats["incorrect"] > stats["correct"]:
-        weak_topics.append((topic, stats))
+    total_attempts = stats["correct"] + stats["incorrect"]
+    
+    # Check if correct answers are greater than 80% of total attempts
+    if total_attempts > 0 and (stats["correct"] / total_attempts) >= 0.8:
+        strong_topics.append((topic, stats))  # Add to strong topics
     else:
-        strong_topics.append((topic, stats))
+        weak_topics.append((topic, stats))  # Add to weak topics
 
 # 🎭 **Define Student Persona Based on Performance**
 if accuracy > 90 and negative_score < 3:

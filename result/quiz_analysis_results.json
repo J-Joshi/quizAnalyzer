@@ -52,7 +52,7 @@
                 "incorrect_answers": 3
             }
         ],
-        "Student Persona": "\ud83d\udcca The Rising Star - Good performance but needs improvement in accuracy."
+        "Student Persona": "The Rising Star - Good performance but needs improvement in accuracy."
     },
     "recommendations": {
         "Improve Accuracy": [
@@ -75,6 +75,6 @@
             "human health and disease ",
             "reproductive health "
         ],
-        "Final Persona": "\ud83d\udcca The Rising Star - Good performance but needs improvement in accuracy."
+        "Final Persona": "The Rising Star - Good performance but needs improvement in accuracy."
     }
 }
