@@ -20,7 +20,6 @@
 
 - **Python** 🐍
 - **Pandas** 📊 (Data Analysis)
-- **Matplotlib** 📈 (Data Visualization)
 - **JSON** 📂 (Data Handling)
 - **GitHub** 🔗 (Version Control)
 
@@ -36,12 +35,12 @@ quiz-analyzer/
 │   ├── user_quiz.json  # User-related quiz data
 │── results/              # Stores analysis outputs
 │   ├── quiz_analysis_results.json  # Final JSON output
+│   ├── current_quiz_analysis_results.json  # Final JSON output
 │── scripts/              # Python scripts
 │   ├── fetch_data.py       # Fetch quiz data from API
 │   ├── analyze_data.py     # Analyze historical quiz performance
 │   ├── analyze_current_quiz.py  # Analyze current quiz performance
 │── README.md              # Project documentation
-│── requirements.txt       # Required Python dependencies
 ```
 
 ---
@@ -53,14 +52,6 @@ quiz-analyzer/
 ```bash
 git clone https://github.com/your-username/quiz-analyzer.git
 cd quiz-analyzer
-```
-
-### **2️⃣ Create a Virtual Environment (Optional but Recommended)**
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
 ```
 
 ### **3️⃣ Install Dependencies**
@@ -136,39 +127,3 @@ python scripts/analyze_current_quiz.py
 ✔️ Practice time-bound quizzes to boost question-solving speed.  
 ✔️ Review previous mistakes to avoid common pitfalls.  
 ✔️ Optimize test-taking strategies for efficiency.
-
----
-
-## 📸 Screenshots
-
-📊 Sample Insights Summary:  
-![Accuracy Trend](results/accuracy_trend.png)  
-![Mistakes Corrected](results/mistakes_corrected_trend.png)  
-![Score Trend](results/score_trend.png)
-
----
-
-## 📝 Future Improvements
-
-- ✅ Implement an interactive web dashboard for visualization.
-- ✅ Add an AI-based recommendation system for smarter insights.
-- ✅ Integrate with a mobile app for real-time quiz tracking.
-
----
-
-## 🏆 Contributors
-
-💡 **Your Name** - Developer & Data Analyst  
-📧 Contact: [your-email@example.com](mailto:your-email@example.com)
-
----
-
-## ⭐️ Support
-
-If you found this project useful, please ⭐️ the repository and share your feedback!
-
-```bash
-git add .
-git commit -m "Updated analysis & recommendations"
-git push origin main
-```
