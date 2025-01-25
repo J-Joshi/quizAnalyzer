@@ -48,13 +48,13 @@ average_negative_score = float(historical_df["negative_score"].astype(float).mea
 
 # 🎭 **Student Persona Definition**
 if average_accuracy > 90 and average_negative_score < 3:
-    student_persona = "🚀 The Perfectionist - High accuracy, minimal mistakes, always striving for 100%."
+    student_persona = "The Perfectionist - High accuracy, minimal mistakes, always striving for 100%."
 elif average_accuracy > 75 and average_negative_score < 5:
-    student_persona = "📘 The Consistent Achiever - Strong performer with steady results."
+    student_persona = "The Consistent Achiever - Strong performer with steady results."
 elif average_accuracy > 50:
-    student_persona = "📊 The Rising Star - Good performance but needs improvement in accuracy."
+    student_persona = "The Rising Star - Good performance but needs improvement in accuracy."
 elif average_accuracy < 50 and historical_df["incorrect_answers"].sum() > historical_df["correct_answers"].sum():
-    student_persona = "⚠️ The Underdog - Needs a boost in fundamentals to improve performance."
+    student_persona = "The Underdog - Needs a boost in fundamentals to improve performance."
 else:
     student_persona = "🔄 The Fast Learner - Learning from mistakes and improving over time."
 
