@@ -1,0 +1,34 @@
+{
+    "Total Questions Attempted": 10,
+    "Correct Answers": 8,
+    "Incorrect Answers": 2,
+    "Accuracy (%)": 80.0,
+    "Negative Score": 2.0,
+    "Mistakes Corrected": 6,
+    "Weak Topics": [],
+    "Strong Topics": [
+        [
+            "Structural Organisation in Animals",
+            {
+                "correct": 10,
+                "incorrect": 0
+            }
+        ]
+    ],
+    "Recommendations": {
+        "Improve Accuracy": [
+            "Review weak topics and understand key concepts.",
+            "Practice more quizzes on challenging areas.",
+            "Use spaced repetition for better retention."
+        ],
+        "Enhance Speed": [
+            "Take more timed quizzes to improve time management.",
+            "Review mistakes to avoid negative scores."
+        ],
+        "Suggested Topics to Focus On": [],
+        "Strongest Topics": [
+            "Structural Organisation in Animals"
+        ],
+        "Student Persona": "The Consistent Achiever - Strong performer with steady results."
+    }
+}

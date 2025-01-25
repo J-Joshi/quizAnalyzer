@@ -1,0 +1,80 @@
+{
+    "insights": {
+        "Total Questions Attempted": 777,
+        "Correct Answers": 211,
+        "Incorrect Answers": 82,
+        "Accuracy (%)": 72.21,
+        "Negative Score": 5.86,
+        "Mistakes Corrected": 40,
+        "Weak Topics": [
+            {
+                "topic": "principles of inheritance and variation ",
+                "accuracy": 30.0,
+                "score": 12.0,
+                "mistakes_corrected": 0.0,
+                "incorrect_answers": 7
+            },
+            {
+                "topic": "Human Reproduction",
+                "accuracy": 38.0,
+                "score": 40.0,
+                "mistakes_corrected": 0.0,
+                "incorrect_answers": 16
+            },
+            {
+                "topic": "Reproductive Health",
+                "accuracy": 43.0,
+                "score": 52.0,
+                "mistakes_corrected": 0.0,
+                "incorrect_answers": 17
+            }
+        ],
+        "Strong Topics": [
+            {
+                "topic": "microbes in human welfare",
+                "accuracy": 100.0,
+                "score": 76.0,
+                "mistakes_corrected": 4.0,
+                "incorrect_answers": 0
+            },
+            {
+                "topic": "human health and disease ",
+                "accuracy": 93.0,
+                "score": 112.0,
+                "mistakes_corrected": 12.0,
+                "incorrect_answers": 2
+            },
+            {
+                "topic": "reproductive health ",
+                "accuracy": 92.0,
+                "score": 52.0,
+                "mistakes_corrected": 0.0,
+                "incorrect_answers": 3
+            }
+        ],
+        "Student Persona": "\ud83d\udcca The Rising Star - Good performance but needs improvement in accuracy."
+    },
+    "recommendations": {
+        "Improve Accuracy": [
+            "Revise weak topics and review key concepts in depth.",
+            "Take more quizzes on challenging areas for reinforcement.",
+            "Use spaced repetition techniques for better long-term retention."
+        ],
+        "Enhance Speed": [
+            "Practice time-bound quizzes to boost question-solving speed.",
+            "Review previous mistakes to avoid common pitfalls.",
+            "Optimize test-taking strategies for efficiency."
+        ],
+        "Suggested Topics to Focus On": [
+            "principles of inheritance and variation ",
+            "Human Reproduction",
+            "Reproductive Health"
+        ],
+        "Strongest Topics": [
+            "microbes in human welfare",
+            "human health and disease ",
+            "reproductive health "
+        ],
+        "Final Persona": "\ud83d\udcca The Rising Star - Good performance but needs improvement in accuracy."
+    }
+}
